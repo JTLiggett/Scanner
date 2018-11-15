@@ -1,0 +1,13 @@
+import java.util.Scanner; 
+String answer;
+int count;
+Scanner hit;
+  void setup(){
+   answer = "0";
+   Scanner hit = new Scanner(answer);
+       while(hit.hasNextInt())
+       {
+         count += hit.nextInt();
+       }
+       System.out.println(count);
+  }
